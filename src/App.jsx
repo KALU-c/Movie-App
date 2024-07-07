@@ -3,8 +3,8 @@ import { useEffect, useState } from "react"
 import SearchIcon from "./search.svg"
 import MovieCard from './MovieCard';
 
-// You can get yor own API from ---> https://developer.themoviedb.org/docs/getting-started
-const API_KEY = "YOUR API KEY";
+const API_KEY = import.meta.env.VITE_API;
+console.log("API URL", API_KEY);
 
 function App() {
 
