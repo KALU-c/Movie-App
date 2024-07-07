@@ -4,7 +4,6 @@ import SearchIcon from "./search.svg"
 import MovieCard from './MovieCard';
 
 const API_KEY = import.meta.env.VITE_API;
-console.log("API URL", API_KEY);
 
 function App() {
 
